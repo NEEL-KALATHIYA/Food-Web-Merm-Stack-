@@ -29,15 +29,15 @@
     border-bottom: 2px solid #49557e;
 }
 
-.navbar li{
+.navbar li {
     cursor: pointer;
 }
 
-.navbar-search_icon{
+.navbar-search_icon {
     position: relative;
 }
 
-.navbar-search_icon .dot{
+.navbar-search_icon .dot {
     position: absolute;
     top: -8px;
     right: -8px;
@@ -45,4 +45,60 @@
     min-height: 10px;
     background-color: tomato;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .navoar .logo{
+        width: 140px;
+    }
+
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .navbar-right{
+        gap: 30px;
+    }
+
+    .navbar-right img{
+        width: 22px;
+    }
+
+    .navbar-right .button{
+        padding: 8px 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navoar .logo{
+        width: 120px;
+    }
+
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .navbar-right{
+        gap: 20px;
+    }
+
+    .navbar-right img{
+        width: 20px;
+    }
+
+    .navbar-right .button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .navbar-menu {
+        display: none;
+    }
+    
 }
