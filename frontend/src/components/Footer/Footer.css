@@ -10,6 +10,17 @@
     margin-top: 100px;
 }
 
+.logo-f{
+    margin-top: -100px;
+    margin-left: 200px;
+    height: 180px;
+    width: 180px;
+}
+
+.p{
+    margin-top: -40px;
+}
+
 .footer-content {
     width: 100%;
     display: grid;
@@ -43,6 +54,7 @@
 .footer-social-icons img {
     width: 40px;
     margin-right: 15px;
+    margin-top: -10px;
 }
 
 .footer hr {

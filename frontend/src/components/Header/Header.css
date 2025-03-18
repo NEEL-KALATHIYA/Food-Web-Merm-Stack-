@@ -2,7 +2,7 @@
     height: 34vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
@@ -10,13 +10,16 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center; 
+    text-align: center;
     gap: 1.5vw;
     max-width: 50%;
     bottom: 10%;
-    left: 6vw;
+    left: 50%;
+    transform: translateX(-50%); 
     animation: fadeIn 3s;
 }
+
 
 .header-contents h2 {
     font-weight: 500;
