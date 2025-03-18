@@ -23,20 +23,21 @@ import food_1 from "./salad/food_1.png";
 import food_2 from "./salad/food_2.png";
 import food_3 from "./salad/food_3.png";
 import food_4 from "./salad/food_4.png";
-import assorted_sushi_rolls from "./assorted_sushi_rolls.jpg";
-import Chinese_fried_spring_roll from "./Chinese_fried_spring_roll.jpg";
-import chicken_salsa_all_tightly_rolle from "./chicken_salsa_all_tightly_rolle.jpg";
-import sushi_rolls from "./sushi_rolls.jpg";
-import food_5 from "./food_5.png";
-import food_6 from "./food_6.png";
-import food_7 from "./food_7.png";
-import food_8 from "./food_8.png";
-import food_9 from "./Balls_lemon_and_berry_ice_cream.jpg";
-import food_10 from "./food_10.png";
-import food_11 from "./food_11.png";
-import food_12 from "./Black_Berry_ice_cream.jpg";
+import assorted_sushi_rolls from "./roll/assorted_sushi_rolls.jpg";
+import Chinese_fried_spring_roll from "./roll/Chinese_fried_spring_roll.jpg";
+import chicken_salsa_all_tightly_rolle from "./roll/chicken_salsa_all_tightly_rolle.jpg";
+import sushi_rolls from "./roll/sushi_rolls.jpg";
+import food_5 from "./roll/food_5.png";
+import food_6 from "./roll/food_6.png";
+import food_7 from "./roll/food_7.png";
+import food_8 from "./roll/food_8.png";
+import food_9 from "./icecream/Balls_lemon_and_berry_ice_cream.jpg";
+import food_10 from "./icecream/food_10.png";
+import food_11 from "./icecream/food_11.png";
+import food_62 from "./icecream/food_12.png";
+import food_12 from "./icecream/Black_Berry_ice_cream.jpg";
 import food_13 from "./food_13.png";
-import Blueberry from "./BlueBerry_Ice_cream.jpg"
+import Blueberry from "./icecream/BlueBerry_Ice_cream.jpg";
 import food_14 from "./food_14.png";
 import food_15 from "./food_15.png";
 import food_16 from "./food_16.png";
@@ -331,8 +332,17 @@ export const food_list = [
     category: "Deserts",
   },
   {
-    _id: "23",
+    _id: "22",
     name: "Vanilla Ice Cream",
+    image: food_62,
+    price: 1000,
+    description:
+      "Food provides essential nutrients for overall health and well-being",
+    category: "Deserts",
+  },
+  {
+    _id: "23",
+    name: "Red Berry Ice Cream",
     image: food_12,
     price: 1200,
     description:
